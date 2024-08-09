@@ -44,7 +44,7 @@ function Header() {
           <Logo className="w-auto h-5" />
           <div className="flex items-center">
             <SearchButton className="text-slate-500 hover:text-slate-600 w-8 h-8 -my-1 flex items-center justify-center md:hidden dark:hover:text-slate-300">
-              <span className="sr-only">Search</span>
+              <span className="sr-only">検索</span>
               <svg
                 width="24"
                 height="24"
@@ -72,7 +72,7 @@ function Header() {
                   href="https://github.com/tailwindlabs/tailwindcss"
                   className="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"
                 >
-                  <span className="sr-only">Tailwind CSS on GitHub</span>
+                  <span className="sr-only">Tailwind CSS 日本語ドキュメントの GitHubリンク</span>
                   <svg
                     viewBox="0 0 16 16"
                     className="w-5 h-5"
@@ -88,7 +88,7 @@ function Header() {
         </div>
         <div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
           <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
-            Rapidly build modern websites without ever leaving your HTML.
+            HTML コードだけでモダンなウェブサイトを迅速に構築できる
           </h1>
           <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">
             A utility-first CSS framework packed with classes like{' '}
@@ -106,7 +106,7 @@ function Header() {
               href="/docs/installation"
               className="bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400"
             >
-              Get started
+              始める
             </NextLink>
             <SearchButton className="hidden sm:flex items-center w-72 text-left space-x-3 px-4 h-12 bg-white ring-1 ring-slate-900/10 hover:ring-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500 shadow-sm rounded-lg text-slate-400 dark:bg-slate-800 dark:ring-0 dark:text-slate-300 dark:highlight-white/5 dark:hover:bg-slate-700">
               {({ actionKey }) => (
@@ -125,7 +125,7 @@ function Header() {
                     <path d="m19 19-3.5-3.5" />
                     <circle cx="11" cy="11" r="6" />
                   </svg>
-                  <span className="flex-auto">Quick search...</span>
+                  <span className="flex-auto">検索...</span>
                   {actionKey && (
                     <kbd className="font-sans font-semibold dark:text-slate-500">
                       <abbr
@@ -162,7 +162,7 @@ export default function Home() {
           property="og:title"
           content="Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
         />
-        <title>Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.</title>
+        <title>Tailwind CSS - モダンなウェブサイトをHTMLだけで迅速に構築</title>
       </Head>
       <div className="mb-20 overflow-hidden sm:mb-32 md:mb-40">
         <Header />

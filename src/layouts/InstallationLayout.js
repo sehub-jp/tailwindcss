@@ -105,7 +105,7 @@ export function InstallationLayout({ children }) {
       <header id="header" className="mb-10 md:flex md:items-start">
         <div className="flex-auto max-w-4xl">
           <p className="mb-4 text-sm leading-6 font-semibold text-sky-500 dark:text-sky-400">
-            Installation
+            インストール
           </p>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight dark:text-slate-200">
             Get started with Tailwind CSS
@@ -126,7 +126,7 @@ export function InstallationLayout({ children }) {
             data-docsearch-ignore
             className="text-slate-900 text-xl tracking-tight font-bold mb-3 dark:text-slate-200"
           >
-            Installation
+            インストール
           </h2>
           <div className="flex overflow-auto mb-6 -mx-4 sm:-mx-6">
             <div className="flex-none min-w-full px-4 sm:px-6">

@@ -120,7 +120,7 @@ export function NavItems() {
     <>
       <li>
         <Link href="/docs/installation" className="hover:text-sky-500 dark:hover:text-sky-400">
-          Docs
+          ドキュメント
         </Link>
       </li>
       <li>
@@ -128,17 +128,17 @@ export function NavItems() {
           href="https://tailwindui.com/?ref=top"
           className="hover:text-sky-500 dark:hover:text-sky-400"
         >
-          Components
+          コンポネント
         </a>
       </li>
       <li>
         <Link href="/blog" className="hover:text-sky-500 dark:hover:text-sky-400">
-          Blog
+          ブログ
         </Link>
       </li>
       <li>
         <Link href="/showcase" className="hover:text-sky-500 dark:hover:text-sky-400">
-          Showcase
+          ショーケース
         </Link>
       </li>
     </>
@@ -215,11 +215,11 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                   Router.push('/brand')
                 }}
               >
-                <span className="sr-only">Tailwind CSS home page</span>
+                <span className="sr-only">Tailwind CSS 日本語ドキュメントサイト</span>
                 <Logo className="w-auto h-5" />
               </Link>
               <VersionSwitcher />
-              <Featured />
+              {/* <Featured /> */}
               <div className="relative hidden lg:flex items-center ml-auto">
                 <nav className="text-sm leading-6 font-semibold text-slate-700 dark:text-slate-200">
                   <ul className="flex space-x-8">
@@ -229,10 +229,10 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                 <div className="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
                   <ThemeToggle panelClassName="mt-8" />
                   <a
-                    href="https://github.com/tailwindlabs/tailwindcss"
+                    href="https://github.com/sehub-jp/tailwindcss"
                     className="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"
                   >
-                    <span className="sr-only">Tailwind CSS on GitHub</span>
+                    <span className="sr-only">Tailwind CSS 日本語ドキュメントのGitHubリンク</span>
                     <svg
                       viewBox="0 0 16 16"
                       className="w-5 h-5"
@@ -245,7 +245,7 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                 </div>
               </div>
               <SearchButton className="ml-auto text-slate-500 w-8 h-8 -my-1 flex items-center justify-center hover:text-slate-600 lg:hidden dark:text-slate-400 dark:hover:text-slate-300">
-                <span className="sr-only">Search</span>
+                <span className="sr-only">検索</span>
                 <svg
                   width="24"
                   height="24"
@@ -270,7 +270,7 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                 onClick={() => onNavToggle(!navIsOpen)}
                 className="text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
               >
-                <span className="sr-only">Navigation</span>
+                <span className="sr-only">ナビゲーション</span>
                 <svg width="24" height="24">
                   <path
                     d="M5 6h14M5 12h14M5 18h14"

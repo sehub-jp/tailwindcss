@@ -8,7 +8,7 @@ const pages = createPageList(
 export const documentationNav = {
   'Getting Started': [
     {
-      title: 'Installation',
+      title: 'インストール',
       href: '/docs/installation',
       match: /^\/docs\/(installation|guides)/,
     },

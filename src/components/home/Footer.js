@@ -4,12 +4,12 @@ import { Logo } from '@/components/Logo'
 
 const footerNav = [
   {
-    'Getting Started': documentationNav['Getting Started'],
-    'Core Concepts': documentationNav['Core Concepts'],
+    '入門': documentationNav['Getting Started'],
+    'コアコンセプト': documentationNav['Core Concepts'],
   },
   {
-    Customization: documentationNav['Customization'],
-    Community: [
+    カスタマイズ: documentationNav['Customization'],
+    コミュニティ: [
       { title: 'GitHub', href: 'https://github.com/tailwindlabs/tailwindcss' },
       { title: 'Discord', href: '/discord' },
       { title: 'Twitter', href: 'https://twitter.com/tailwindcss' },
